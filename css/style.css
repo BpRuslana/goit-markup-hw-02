@@ -1,4 +1,10 @@
 .html
+.body {
+    font-family:"Roboto" sans-serif;
+    background: #FFFFFF;
+    color: #434455;
+}
+
 .navigation { color: var(--navyblue, #2E2F42);
     font-family: Roboto;
     font-size: 16px;
