@@ -1,17 +1,16 @@
 .root {
-    --navyblue: #2E2F42;
-    --slate: #434455;
-    --ocean: #404BBF;
-    --iris: #4D5AE5;
-    --white: #FFFFFF;
-    --cloud: #F4F4FD;
+    --navyblue, #2E2F42;
+    --slate, #404BBF;
+    --iris, #4D5AE5;
+    --white, #FFFFFF;
+    --cloud, #F4F4FD;
 }
 
 body {
     font-family: "Roboto", sans-serif;
     color: var(--navyblue: #2E2F42);
     color: var(--slate: #434455);
-    background-color: var(--white: #FFFFFF);
+    background-color: var(--white: #FFFFFF)
 }
 .list {
     list-style: none;
@@ -26,6 +25,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none
 
 }
 .span-logo {
@@ -42,24 +42,41 @@ body {
     color: var(--navyblue, #2E2F42);
     font-weight: 500;
     font-size: 16px;
-    line-height: 15px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
+    text-decoration: none
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--ocean, #404BBF);
 }
+/*Address*/
+.address-list {
+    list-style: none;
+}
+.address-list .link {
+    color: var(--slate, #434455);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;   
+}
+.address-list .link:hover,
+.address-list .link:focus {
+    color: var(--ocean, #404BBF);
+}
    
 /*Hero*/
-.hero-title {
+.hero {
     background: var(--navyblue, #2E2F42);
+}
+.hero-title {
     color: var(--white, #FFF);
     text-align: center;
     font-family: Roboto;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 1.12px;
 
 }
@@ -70,7 +87,7 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: var(--white: #FFFFFF);
+    color: var(--white, #FFFFFF);
 }
     
 /*Features*/
