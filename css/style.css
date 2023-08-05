@@ -1,16 +1,16 @@
 .root {
-    --navyblue, #2E2F42;
-    --slate,#404BBF;
-    --iris, #4D5AE5;
-    --white, #FFFFFF;
-    --cloud, #F4F4FD;
-    --ocean, #404BBF;
+    --navyblue: #2E2F42;
+    --slate:#404BBF;
+    --iris: #4D5AE5;
+    --white:  #FFFFFF;
+    --cloud: #F4F4FD;
+    --ocean: #404BBF;
 }
 
 body {
     font-family: "Roboto", sans-serif;
-    color: var(--slate, #434455);
-    background-color: var(--white, #FFFFFF)
+    color: var(--slate,  #434455);
+    background-color: var(--white,  #FFFFFF)
 }
 .list {
     list-style: none;
@@ -164,4 +164,4 @@ text-decoration: none
 .button.secondary:focus {
     background-color: var(--ocean, #404BBF);
     color: var(--white, #FFFFFF);
-}v
+}
