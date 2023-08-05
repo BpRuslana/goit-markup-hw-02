@@ -1,10 +1,10 @@
 :root {
-    --navyblue: #2E2F42;
-    --slate:#404BBF;
-    --iris: #4D5AE5;
-    --white:  #FFFFFF;
-    --cloud: #F4F4FD;
-    --ocean: #404BBF;
+    --navyblue, #2E2F42;
+    --slate, #404BBF;
+    --iris, #4D5AE5;
+    --white,  #FFFFFF;
+    --cloud,  #F4F4FD;
+    --ocean,  #404BBF;
 }
 
 body {
