@@ -25,11 +25,13 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none
+    text-decoration: none;
+    font-style: normal
 
 }
 .span-logo {
     color: var(--navyblue-colour)
+    background-color: var(var(--cloud-colour))
 }
 
 /*Site nav*/
@@ -119,7 +121,9 @@ body {
 /*What are we doing*/
 
 /* Our Team*/
-
+.footer {
+    background-color: var(--navyblue-colour)
+}
 .text-footer {
     color: var(--cloud-colour);
     background: var(--navyblue-colour);
