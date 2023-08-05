@@ -141,14 +141,7 @@ color: var(--navyblue-colour)
     letter-spacing: 0.02em;
     text-transform: capitalize
 }
-
-
-
-
-
-
-
-
+/*Footer*/
 .footer {
     background-color: var(--navyblue-colour)
 }
@@ -184,22 +177,13 @@ text-decoration: none
     background-color: var(--ocean-colour);
 }
 
-.button.primery {
-    background-color: var(--ocean-colour);
-    color: var(--white-colour);
+.button .primery {
+    color: var(--iris-colour);
+    color: var(--cloud-colour)
 }
-.button.primery:hover,
-.button.primery:focus {
-    background-color: var(--white-colour);
-    color: var(--ocean-colour);
+.button .primery:hover,
+.button .primery:focus {
+    color: var(--white-colour);
+    background-color: var(--ocean-colour);
 }
 
-.button.secondary {
-    background-color: var(--cloud-colour);
-    color: var(--ocean-colour);
-}
-.button.secondary:hover,
-.button.secondary:focus {
-    background-color: var(--ocean-colour);
-    color: var(--white-colour);
-}
