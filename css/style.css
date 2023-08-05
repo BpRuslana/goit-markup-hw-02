@@ -7,9 +7,14 @@
 
 }
 
+.list {
+    list-style: none;
+}
+
+/*Logo*/
 .logo {
     color: var(--iris, #4D5AE5);
-    font-family:'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -17,19 +22,86 @@
     text-transform: uppercase;
 
 }
-
-span {
+.span-logo {
     color: var(--navyblue, #2E2F42)
 }
 
-.nav-list {
-list-style: none;
+/*Site nav*/
+.site-nav {
+    list-style: none;
+    font-family: "Roboto";
+    font-style: normal;
 }
-.nav-list.item {
+.site-nav .link {
+    color: var(--navyblue, #2E2F42);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 15px;
     letter-spacing: 0.02em;
-    color: var(--navyblue, #2E2F42
-    
 }
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #404bbf;
+}
+
+/*nav-list.item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: var(--navyblue, #2E2F42*/
+
+    /*Hero*/
+.hero-title {
+    background: var(--navyblue, #2E2F42);
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+
+}
+    /*Advantages*/
+.section-title {
+    color: var(--navyblue, #2E2F42);
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #ffff
+}
+.subtitle {
+    color: var(--navyblue, #2E2F42);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+.text {
+    color: var(--slate, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+    /*What are we doing*/
+
+    /* Our Team*/
+
+.text-footer {
+    color: var(--cloud, #F4F4FD);
+    background: var(--navyblue, #2E2F42);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+ }
