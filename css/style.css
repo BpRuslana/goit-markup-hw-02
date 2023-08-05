@@ -1,16 +1,16 @@
 :root {
-    --navyblue, #2E2F42;
-    --slate, #404BBF;
-    --iris, #4D5AE5;
-    --white,  #FFFFFF;
-    --cloud,  #F4F4FD;
-    --ocean,  #404BBF;
+    --navyblue-colour: #2E2F42;
+    --slate-colour: #434455;
+    --iris-colour: #4D5AE5;
+    --white-colour:  #FFFFFF;
+    --cloud-colour:  #F4F4FD;
+    --ocean-colour:  #404BBF;
 }
 
 body {
     font-family: "Roboto", sans-serif;
-    color: var(--slate,  #434455);
-    background-color: var(--white,  #FFFFFF)
+    color: var(--slate-colour);
+    background-color: var(--white-colour)
 }
 .list {
     list-style: none;
@@ -18,7 +18,7 @@ body {
 
 /*Logo*/
 .logo {
-    color: var(--iris, #4D5AE5);
+    color: var(--iris-colour);
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -29,7 +29,7 @@ body {
 
 }
 .span-logo {
-    color: var(--navyblue, #2E2F42)
+    color: var(--navyblue-colour)
 }
 
 /*Site nav*/
@@ -39,7 +39,7 @@ body {
     font-style: normal;
 }
 .site-nav .link {
-    color: var(--navyblue, #2E2F42);
+    color: var(--navyblue-colour);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -50,14 +50,14 @@ body {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: var(--ocean, #404BBF);
+    color: var(--ocean-colour);
 }
 /*Address*/
 .address {
     list-style: none;
 }
 .address .link {
-    color: var(--slate, #434455);
+    color: var(--slate-colour);
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;  
@@ -66,15 +66,15 @@ body {
 }
 .address .link:hover,
 .address .link:focus {
-    color: var(--ocean, #404BBF);
+    color: var(--ocean-colour);
 }
    
 /*Hero*/
 .hero {
-    background: var(--navyblue, #2E2F42);
+    background: var(--navyblue-colour);
 }
 .hero-title {
-    color: var(--white, #FFF);
+    color: var(--white-colour);
     text-align: center;
     font-family: Roboto;
     font-size: 56px;
@@ -86,17 +86,17 @@ body {
 }
 /*Advantages*/
 .section-title {
-    color: var(--navyblue, #2E2F42);
+    color: var(--navyblue-colour);
     text-align: center;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: var(--white, #FFFFFF);
+    color: var(--white-colour);
 }
     
 /*Features*/
 .feature-list .title {
-    color: var(--navyblue, #2E2F42);
+    color: var(--navyblue-colour);
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -105,7 +105,7 @@ body {
     letter-spacing: 0.4px;
 }
 .text {
-    color: var(--slate, #434455);
+    color: var(--slate-colour);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -118,8 +118,8 @@ body {
 /* Our Team*/
 
 .text-footer {
-    color: var(--cloud, #F4F4FD);
-    background: var(--navyblue, #2E2F42);
+    color: var(--cloud-colour);
+    background: var(--navyblue-colour);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -131,8 +131,8 @@ body {
 /*Button*/
 
 .button { 
-background: var(--iris, #4D5AE5);
-color: var(--white, #FFF);
+background: var(--iris-colour);
+color: var(--white-colour);
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
@@ -143,25 +143,25 @@ text-decoration: none
 }
 .button:hover,
 .button:focus {
-    color: var(--slate,#404BBF);
+    color: var(--slate-colour);
 }
 
 .button.primery {
-    background-color: var(--ocean, #404BBF);
-    color: var(--white, #FFFFFF);
+    background-color: var(--ocean-colour);
+    color: var(--white-colour);
 }
 .button.primery:hover,
 .button.primery:focus {
-    background-color: var(--white, #FFFFFF);
-    color: var(--ocean, #404BBF);
+    background-color: var(--white-colour);
+    color: var(--ocean-colour);
 }
 
 .button.secondary {
-    background-color: var(--cloud, #F4F4FD);
-    color: var(--ocean, #404BBF);
+    background-color: var(--cloud-colour);
+    color: var(--ocean-colour);
 }
 .button.secondary:hover,
 .button.secondary:focus {
-    background-color: var(--ocean, #404BBF);
-    color: var(--white, #FFFFFF);
+    background-color: var(--ocean-colour);
+    color: var(--white-colour);
 }
