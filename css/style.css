@@ -89,7 +89,7 @@ body {
 }
 /*Advantages*/
 .section-title {
-    background-color: var(--cloud-colour)
+    background-color: var(--cloud-colour);
     color: var(--navyblue-colour);
     text-align: center;
     font-size: 36px;
@@ -128,6 +128,20 @@ color: var(--navyblue-colour)
 /*What are we doing*/
 
 /* Our Team*/
+.section{
+    background-color: var(--cloud-colour);
+    color: var(--navyblue-colour)
+}
+.section-subtitle {
+    background-color: var(--white-colour)
+
+}
+
+
+
+
+
+
 .footer {
     background-color: var(--navyblue-colour)
 }
