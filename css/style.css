@@ -55,6 +55,7 @@ body {
 /*Address*/
 .address {
     list-style: none;
+    font-style: normal
 }
 .address .link {
     color: var(--slate-colour);
