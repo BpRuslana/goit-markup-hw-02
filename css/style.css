@@ -1,44 +1,35 @@
-.html
-.body {
-    width: 1440px;
-    height: 2592px;
-    background-color: #FFF;
-    font-family: 'Roboto', sans-serif;
-    color: #434455
-}
-
-.heder {
-    display: flex;
-    width: 1440px;
-    height: 72px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-}
-.logo {
-    display: inline-flex;
-    height: 24px;
-    align-items: center;
-    flex-shrink: 0;
-    color: #4D5AE5;
-    color: #2E2F42;
-}
-
-.navigation { 
+.root {
     color: var(--navyblue, #2E2F42);
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    var(--slate, #434455);
+    var(--white, #FFF)
+    var(--navyblue, #2E2F42);
+    var(--slate, #434455);
+
 }
-.address{
-    color: var(--slate, #434455);
-    font-family: Roboto;
+
+.logo {
+    color: var(--iris, #4D5AE5);
+    font-family:'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+}
+
+span {
+    color: var(--navyblue, #2E2F42)
+}
+
+.nav-list {
+list-style: none;
+}
+.nav-list.item {
+    font-weight: 500;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navyblue, #2E2F42
+    
 }
