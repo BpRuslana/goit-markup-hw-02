@@ -53,10 +53,10 @@ body {
     color: var(--ocean, #404BBF);
 }
 /*Address*/
-.address-list {
+.address {
     list-style: none;
 }
-.address-list .link {
+.address .link {
     color: var(--slate, #434455);
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -64,8 +64,8 @@ body {
     font-style: normal;
     list-style: none;
 }
-.address-list .link:hover,
-.address-list .link:focus {
+.address .link:hover,
+.address .link:focus {
     color: var(--ocean, #404BBF);
 }
    
