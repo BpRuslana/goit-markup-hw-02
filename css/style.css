@@ -30,10 +30,13 @@ body {
 
 }
 .span-logo {
-    color: var(--navyblue-colour)
+    color: var(--navyblue-colour);
     background-color: var(var(--cloud-colour))
 }
-
+.span-logo-down {
+    color: var(--cloud-colour);
+    background-color: var(--navyblue-colour)
+}
 /*Site nav*/
 .site-nav {
     list-style: none;
