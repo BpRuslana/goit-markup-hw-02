@@ -89,16 +89,23 @@ body {
 }
 /*Advantages*/
 .section-title {
+    background-color: var(--cloud-colour)
     color: var(--navyblue-colour);
     text-align: center;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--navyblue-colour);
-    
 }
-    
+.title {
+background-color: var(--white-colour);
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--navyblue-colour)
+
+}
 /*Features*/
 .feature .title {
     color: var(--navyblue-colour);
@@ -150,7 +157,7 @@ text-decoration: none
 }
 .button:hover,
 .button:focus {
-    color: var(--ocean-colour);
+    background-color: var(--ocean-colour);
 }
 
 .button.primery {
