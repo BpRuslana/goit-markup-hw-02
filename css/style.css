@@ -1,12 +1,18 @@
 .root {
-    color: var(--navyblue, #2E2F42);
-    var(--slate, #434455);
-    var(--white, #FFF)
-    var(--navyblue, #2E2F42);
-    var(--slate, #434455);
-
+    --navyblue: #2E2F42;
+    --slate: #434455;
+    --ocean: #404BBF;
+    --iris: #4D5AE5;
+    --white: #FFFFFF;
+    --cloud: #F4F4FD;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--navyblue: #2E2F42);
+    color: var(--slate: #434455);
+    background-color: var(--white: #FFFFFF);
+}
 .list {
     list-style: none;
 }
@@ -41,17 +47,10 @@
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #404bbf;
+    color: var(--ocean, #404BBF);
 }
-
-/*nav-list.item {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 15px;
-    letter-spacing: 0.02em;
-    color: var(--navyblue, #2E2F42*/
-
-    /*Hero*/
+   
+/*Hero*/
 .hero-title {
     background: var(--navyblue, #2E2F42);
     color: var(--white, #FFF);
@@ -64,16 +63,18 @@
     letter-spacing: 1.12px;
 
 }
-    /*Advantages*/
+/*Advantages*/
 .section-title {
     color: var(--navyblue, #2E2F42);
     text-align: center;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: #ffff
+    color: var(--white: #FFFFFF);
 }
-.subtitle {
+    
+/*Features*/
+.feature-list .title {
     color: var(--navyblue, #2E2F42);
     font-family: Roboto;
     font-size: 20px;
@@ -91,9 +92,9 @@
     line-height: 24px;
     letter-spacing: 0.32px;
 }
-    /*What are we doing*/
+/*What are we doing*/
 
-    /* Our Team*/
+/* Our Team*/
 
 .text-footer {
     color: var(--cloud, #F4F4FD);
