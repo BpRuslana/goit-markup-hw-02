@@ -129,12 +129,13 @@ color: var(--navyblue-colour)
 /*What are we doing*/
 
 /* Our Team*/
-
-.section-title .sbt {
-    background-color: var(--white-colour-olour);
-    color: var(--navyblue-colour);
-   
+.sectiontitle {
+    background-color: var(--cloud-colour);
 }
+.section-title .sbt {
+    background-color: var(--white-colour)}
+   
+
 /*Footer*/
 .footer {
     background-color: var(--navyblue-colour)
@@ -171,12 +172,12 @@ text-decoration: none
     background-color: var(--ocean-colour);
 }
 
-.button .primery {
+.button-primery {
     color: var(--iris-colour);
-    color: var(--cloud-colour)
+    background-color: var(--cloud-colour)
 }
-.button .primery:hover,
-.button .primery:focus {
+.button-primery:hover,
+.button-primery:focus {
     color: var(--white-colour);
     background-color: var(--ocean-colour);
 }
