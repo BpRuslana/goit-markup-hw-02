@@ -129,17 +129,11 @@ color: var(--navyblue-colour)
 /*What are we doing*/
 
 /* Our Team*/
-.section{
-    background-color: var(--cloud-colour);
-    color: var(--navyblue-colour)
-}
-.section-subtitle {
-    background-color: var(--white-colour);
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize
+
+.section-title .sbt {
+    background-color: var(--white-colour-olour);
+    color: var(--navyblue-colour);
+   
 }
 /*Footer*/
 .footer {
@@ -186,8 +180,6 @@ text-decoration: none
     color: var(--white-colour);
     background-color: var(--ocean-colour);
 }
-
-
 
 
 .link{
