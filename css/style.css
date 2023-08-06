@@ -132,10 +132,10 @@ color: var(--navyblue-colour)
 .sectiontitle {
     background-color: var(--cloud-colour);
 }
-.section-title .sbt {
+.section-title.sectiontitle
+{
     background-color: var(--white-colour)}
    
-
 /*Footer*/
 .footer {
     background-color: var(--navyblue-colour)
@@ -181,8 +181,6 @@ text-decoration: none
     color: var(--white-colour);
     background-color: var(--ocean-colour);
 }
-
-
 .link{
     text-decoration: none
 }
