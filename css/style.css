@@ -172,12 +172,12 @@ text-decoration: none
     background-color: var(--ocean-colour);
 }
 
-.button-primery {
+.button .primery {
     color: var(--iris-colour);
     background-color: var(--cloud-colour)
 }
-.button-primery:hover,
-.button-primery:focus {
+.button .primery:hover,
+.button .primery:focus {
     color: var(--white-colour);
     background-color: var(--ocean-colour);
 }
